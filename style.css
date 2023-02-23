@@ -94,22 +94,22 @@ button {
   color: #975dfa;
 }
 
-.custom1 {
-  background: #462878;
-}
-
 #equals {
   background: #7f45e2;
 }
 
-#plus,
-#minus,
-#divide,
-#multiply {
+.plus,
+.minus,
+.divide,
+.multiply {
   background: #462878;
 }
 
 button:hover {
   cursor: pointer;
   scale: 1.1;
+}
+
+.disabled {
+  background: red;
 }
